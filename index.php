@@ -88,7 +88,6 @@ switch (ENVIRONMENT)
 		echo 'The application environment is not set correctly.';
 		exit(1); // EXIT_ERROR
 }
-echo("hi there, Ron & Lilia");
 
 /*
  *---------------------------------------------------------------
