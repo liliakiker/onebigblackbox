@@ -88,6 +88,7 @@ switch (ENVIRONMENT)
 		echo 'The application environment is not set correctly.';
 		exit(1); // EXIT_ERROR
 }
+echo("hi there, Ron & Lilia");
 
 /*
  *---------------------------------------------------------------
@@ -313,4 +314,3 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
-echo("hi there, Ron & Lilia");
